@@ -1,4 +1,4 @@
-layout: page
+layout: post
 title: "Primeiro post"
 date: 2019-10-17 00:00:00 -0000
 categories: startup post explicacao explanation
