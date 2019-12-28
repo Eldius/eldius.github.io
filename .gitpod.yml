@@ -11,4 +11,5 @@ ports:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/44_config_start_tasks/
 tasks:
   #- command: bundle config set path 'vendor' && bundle install
-  - command: bundle install
+  - init: gem install bundler
+    command: bundle install
