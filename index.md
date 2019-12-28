@@ -1,26 +1,9 @@
 ---
-layout: default
+#
+# By default, content added below the "---" mark will appear in the home page
+# between the top bar and the list of recent posts.
+# To change the home page layout, edit the _layouts/home.html file.
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: home
 ---
-
-<section>
-	<ul>
-
-		{% for post in site.posts %}
-
-		<li>
-			<div class="post-date">
-				<span>{{ post.date | date: "%b %d, %Y" }}</span>
-			</div>
-			<div class="title">
-				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</div>
-			<div class="divider"></div>
-			<div>
-				 {{ post.content | strip_html | truncatewords:25}}
-			</div>
-		</li>
-
-		{% endfor %}
-
-	</ul>
-</section>
