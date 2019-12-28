@@ -2,10 +2,9 @@ FROM gitpod/workspace-full
 
 USER root
 
-RUN gem install bundler
-
 USER gitpod
 
+RUN sudo gem install bundler
 
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
