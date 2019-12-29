@@ -11,7 +11,7 @@ permalink: /about/
         {% assign author = tmp[1] %}
         <div>
             <h3>{{ author.name }}</h3>
-            <img src="{{ author.email | to_gravatar }}" alt="A photo of {{ author.name }}" />
+            <img src="https://www.gravatar.com/avatar/{{ author.gravatar_hash }}?s=135" alt="A photo of {{ author.name }}" />
             <figcaption>{{ author.name }}</figcaption>
             <ul>
                 <li><label>Github: </label><a href="https://github.com/{{ author.github }}">{{ author.github }}</a></li>
