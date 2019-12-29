@@ -4,12 +4,17 @@ description: Um local pra colocar o que tenho aprendido ultimamento...
 
 show_excerpts: true
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 minima:
   date_format: "%b %-d, %Y"
   social_links:
     twitter: Eldius
     github: Eldius
     linkedin: eldiosantos
-    rss: rss
   disqus:
     shortname: Eldius
