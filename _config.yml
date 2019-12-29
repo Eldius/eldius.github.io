@@ -1,3 +1,15 @@
 theme: minima
 title: Eldius' dev blog
 description: Um local pra colocar o que tenho aprendido ultimamento...
+
+show_excerpts: true
+
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    twitter: Eldius
+    github: Eldius
+    linkedin: eldiosantos
+    rss: rss
+  disqus:
+    shortname: Eldius
